@@ -16,6 +16,12 @@ Command: `docker build buildenv -t 64bit-os`
 Windows OS: `docker run --rm -it -v %cd%:/root/env 64bit-os`
 MacOS / Linux: `docker run --rm -it -v $pwd:/root/env 64bit-os`
 
+### Make the ISO disk file
+
+**NOTE**: Run this in the docker container following the steps above.
+
+Command: `make build-x86_64`
+
 ### Run the OS preview using QEMU
 
 Command: `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso`
