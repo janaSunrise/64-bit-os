@@ -24,4 +24,7 @@ Command: `make build-x86_64`
 
 ### Run the OS preview using QEMU
 
+QEMU is a virtualization tool, that helps using several stacks and test ISO files and kernels.
+Get it [here](https://www.qemu.org/)
+
 Command: `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso`
