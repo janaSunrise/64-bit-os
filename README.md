@@ -6,6 +6,12 @@ Architecture: x86 and arm64
 
 Bootloader: multiboot2
 
+## Preview
+
+**NOTE**: Do note that this is a simple "Hello world" OS made for fun.
+
+![Hello world in the OS](https://github.com/janaSunrise/64-bit-os/blob/main/images/helloworld.png)
+
 ## Docker commands
 
 ### Building the image
