@@ -20,7 +20,7 @@ enum {
     PRINT_COLOR_PINK = 13,
     PRINT_COLOR_YELLOW = 14,
     PRINT_COLOR_WHITE = 15,
-}
+};
 
 void print_clear();
 void print_char(char character);
