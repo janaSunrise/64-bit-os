@@ -35,3 +35,7 @@ QEMU is a virtualization tool, that helps using several stacks and test ISO file
 Get it [here](https://www.qemu.org/).
 
 Command: `qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso`
+
+### Delete the docker build container
+
+Command: `docker rmi 64bit-os -f`
