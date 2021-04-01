@@ -15,7 +15,7 @@ Command: `docker build buildenv -t 64bit-os`
 ### Open the container shell
 
 - Windows OS: `docker run --rm -it -v %cd%:/root/env 64bit-os`
-- MacOS / Linux: `docker run --rm -it -v $pwd:/root/env 64bit-os`
+- MacOS / Linux: `docker run --rm -it -v $PWD:/root/env 64bit-os`
 
 ### Make the ISO disk file
 
